@@ -49,12 +49,18 @@ link {
 .Link-font {
   color: orange;
 }
+
+.center-title {
+  padding-top: 10px;
+  text-align: center;
+}
+
 .Article-About {
   color: whitesmoke;
   background-color: #2980b9;
   font-style: normal;
   font-weight: 299;
-  outline: auto;
+  /* outline: auto; */
   padding: 15px;
 }
 
@@ -117,6 +123,7 @@ body {
   padding: 0;
   margin: 0;
   width: 100%;
+  overflow-x: hidden;
   /* background-image: url(img/background-web.jpg);
   background-repeat: no-repeat; */
   /* background-size: 100% 100%; */
@@ -212,22 +219,19 @@ footer p {
   border-radius: 50%;
 }
 .table-profile {
-  /* margin-left: 1; */
+  border: 1px solid black;
   width: 45%;
   background-color: #ff5500c0;
   color: white;
   border-radius: 50px;
-  /* margin-top: 40px;
-  padding: 15px;
-  width: 37%;
-  outline-color: white;
-  outline-width: 2px;
-  outline-style: groove;
-  margin-left: 100px; */
+  transition: 0.3s ease-in-out;
+}
+.relatives-section {
+  padding: 10px;
+  margin: 0;
 }
 
-.card-container {
-  /* gap: 20px; */
+.cards-section {
   row-gap: 15px;
   padding: 10px;
   display: flex;
