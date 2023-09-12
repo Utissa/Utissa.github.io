@@ -15,18 +15,27 @@ link {
 .link-home {
   color: white;
 }
-h3 {
+
+.section-title {
+  margin: 0;
+  padding: 20px;
+  color: white;
+  background-color: orange;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  /* display: flex;
   width: 100%;
   justify-content: center;
   font-size: xx-large;
   font-weight: 500;
-  color: white;
-  background-color: orange;
+
   background-position: center;
   align-items: justify;
-  box-sizing: fit-content;
+  box-sizing: fit-content; */
 }
+
 .HEADER-PROFILE {
   text-align: center;
   margin: 30px;
@@ -48,15 +57,45 @@ h3 {
   outline: auto;
   padding: 15px;
 }
-.Navbar {
-  display: flex;
-  justify-content: space-around;
+
+#Navbar a {
   background-color: #2980b9;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 30px;
-  padding-right: 30px;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
+
+nav {
+  margin: 0;
+  background-color: #2980b9;
+  position: sticky;
+  z-index: 999;
+  padding: 25px;
+  width: 100%;
+  top: 0;
+}
+
+.nav-link {
+  display: inline;
+  /* gap: ; */
+  margin-right: 10px;
+}
+
+header {
+  width: 100%;
+  /* margin-bottom: 50px; */
+}
+/* 
+.Navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+} */
+/* .Body {
+  padding-top: 60px;
+} */
 a {
   color: orange;
   font-weight: 300;
@@ -75,24 +114,35 @@ table {
   border: none;
 }
 body {
-  background-image: url(img/background-web.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-
-.Body {
+  padding: 0;
+  margin: 0;
   width: 100%;
+  /* background-image: url(img/background-web.jpg);
+  background-repeat: no-repeat; */
+  /* background-size: 100% 100%; */
 }
 
+h1 {
+  margin: 0;
+  justify-content: center;
+  background-color: orange;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 h4 {
   color: white;
 }
-.h1 {
+/* h1 {
   display: flex;
   align-content: center;
   font-size: x-large;
   width: 100%;
-}
+  margin-top: 100px;
+  top: 0;
+} */
 .table-moment {
   padding-top: 16px;
   padding-left: 8px;
@@ -106,17 +156,28 @@ h4 {
 .gambar-moment {
   border-radius: 15px;
 }
-.moment-ar {
+/* .moment-ar {
   display: flex;
   justify-content: space-around;
-}
+} */
 #satu {
   background-color: #2980b9;
 }
 #dua {
   background-color: orange;
 }
+
+footer {
+  background-color: #ff5500;
+  padding: 10px;
+  margin: 0;
+}
+
 footer p {
+  color: white;
+}
+
+/* footer p {
   width: 100%;
   margin-top: 0;
   padding-top: 2rem;
@@ -125,12 +186,13 @@ footer p {
   padding-top: 10px;
   color: white;
   text-align: center;
-}
-.image-ar2 {
+} */
+
+/* .image-ar2 {
   display: flex;
   justify-content: space-around;
   margin-top: 25px;
-}
+} */
 .article-relatives {
   text-align: justify;
   width: 100%;
@@ -150,16 +212,27 @@ footer p {
   border-radius: 50%;
 }
 .table-profile {
-  margin-top: 40px;
+  /* margin-left: 1; */
+  width: 45%;
   background-color: #ff5500c0;
-  padding: 15px;
-  border-radius: 50px;
-  width: 37%;
   color: white;
+  border-radius: 50px;
+  /* margin-top: 40px;
+  padding: 15px;
+  width: 37%;
   outline-color: white;
   outline-width: 2px;
   outline-style: groove;
-  margin-left: 100px;
+  margin-left: 100px; */
+}
+
+.card-container {
+  /* gap: 20px; */
+  row-gap: 15px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .table-profile:hover {
@@ -190,4 +263,10 @@ footer p {
 }
 h2 {
   color: #2980b9;
+}
+.card-display {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  justify-content: space-evenly;
 }
