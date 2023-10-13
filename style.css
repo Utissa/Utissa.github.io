@@ -38,7 +38,7 @@ link {
 
 .HEADER-PROFILE {
   text-align: center;
-  margin: 30px;
+  /* margin: 30px; */
   margin-bottom: 50px;
 }
 
@@ -275,7 +275,10 @@ h2 {
   justify-content: space-evenly;
 }
 .home-page {
-  background-image: url(img/Ukulele\ Kids.jpg);
+  background-image: url(img/1920x1080-px-abstract-hexagon-minimalism-simple-nature-water-hd-art-wallpaper-preview.jpg);
   background-repeat: no-repeat;
-  opacity: 50%;
+  background-size: cover;
+}
+.image-utissa-logo {
+  box-shadow: 2px;
 }
