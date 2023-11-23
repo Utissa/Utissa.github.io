@@ -282,3 +282,21 @@ h2 {
 .image-utissa-logo {
   box-shadow: 2px;
 }
+.PROJECTS {
+  margin-top: 30px;
+}
+.project-section {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+}
+.project-card p {
+  margin-left: 65px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.project-card {
+  background: linear-gradient(to right, #00a8ff, #0097e6, #1d8099, #a4c724, #f39c12, #e67e22);
+  border-radius: 15px;
+}
